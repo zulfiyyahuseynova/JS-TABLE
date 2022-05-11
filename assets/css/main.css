@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#name,#surname,#age,#search{
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #6497b2;
+    border-radius: 5px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6497b2;
+    color: #fff;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #035c96;
+    color: #b3cee1;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin-top: 30px;
+    width: 900px;
+    font-size: 18px;
+    border: 1px solid #6497b2;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: #b3cee1;
+}
+td{
+    background-color: #e0effa;
+}
+th,td{
+    border: 1px solid #6497b2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button{
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.edit{
+    background-color: #4bb9c2;
+}
+.delete{
+    background-color: #e88572;
+}
+.edit:hover{
+    background-color: #3f949c;
+    color: #fff;
+}
+.delete:hover{
+    background-color: #c75741;
+    color: #fff;
+}
